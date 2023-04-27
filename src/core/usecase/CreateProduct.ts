@@ -22,6 +22,5 @@ export class CreateProduct {
         }
         this.productRepository.saveProduct(product);
         return product;
-
     }
 }
